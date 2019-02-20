@@ -21,7 +21,7 @@ namespace po = boost::program_options;
 
 int main(int argc, char* argv[])
 {
-    po::options_description desc("This is 'Conway's Game of Life'.\n"
+    po::options_description desc("This is 'Conway's Game of Life' written in C++.\n"
                                  "It follows the rules:\n"
                                  "1. Any live cell with fewer than two live neighbors dies, \n   as if by underpopulation.\n"
                                  "2. Any live cell with two or three live neighbors lives on \n   to the next generation.\n"
